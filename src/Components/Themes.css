@@ -1,0 +1,71 @@
+.style_switcher{
+    position: fixed;
+    left: 0;
+    top: 10%;
+    background-color: var(--text-white);
+    z-index: 10;
+    width: 220px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+.show-switcher{
+    transform: translateX(0);
+}
+.style_switcher,
+.style_swicher-toggler,
+.them_toggler{
+    border-radius: 0 5px 5px 0;
+}
+.style_swicher-title{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 4px;
+    row-gap: 8px;
+}
+.style_swicher-title, .style_swicher-toggler , .style_swicher-close{
+    color: hsl(0, 0%, 40%);
+}
+.style_swicher-title{
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-600);
+    border-bottom: 1px solid hsl(0, 0%, 87%);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.theme_img{
+    width: 30px;
+    cursor: pointer;
+}
+.style_swicher-toggler, .them_toggler{
+    position: absolute;
+    left: 100%;
+    background-color: var(--text-white);
+    height: 50px;
+    width: 50px;
+    font-size: var(--large-font-size);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+}
+.show-switcher .style_swicher-toggler,
+.show-switcher .them_toggler
+{
+left: -100%;
+}
+.style_swicher-toggler{
+    top: 10%;
+}
+.them_toggler{
+    bottom: 10%;
+}
+.style_swicher-close{
+    cursor: pointer;
+    font-size: var(--h2-font-size);
+    position: absolute;
+    top: 2%;
+    right: 15px;
+}
