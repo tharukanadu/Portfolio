@@ -137,5 +137,7 @@ img{
 span{
     color: var(--first-color);
 }
-
+.shape{
+    opacity: 0.6;
+}
 

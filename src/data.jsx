@@ -6,15 +6,15 @@ import inster from './assets/portfolio/inster.png'
 import an_ecom from './assets/portfolio/angular-ecommerce.png';
 import weather from './assets/portfolio/weather.png';
 
-import blue from './assets/th/blue.png';
-import goldenrod from './assets/th/goldenrod.png';
-import green from './assets/th/green.png';
-import magenta from './assets/th/magenta.png';
-import orange from './assets/th/orange.png';
-import purple from './assets/th/purple.png';
-import red from './assets/th/red.png';
-import yellow from './assets/th/yellow.png';
-import yellowgreen from './assets/th/yellowgreen.png';
+import blue from './assets/color/blue.png';
+import goldenrod from './assets/color/goldenrod.png';
+import green from './assets/color/green.png';
+import magenta from './assets/color/magenta.png';
+import orange from './assets/color/orange.png';
+import purple from './assets/color/purple.png';
+import red from './assets/color/red.png';
+import yellow from './assets/color/yellow.png';
+import yellowgreen from './assets/color/yellowgreen.png';
 
 
 

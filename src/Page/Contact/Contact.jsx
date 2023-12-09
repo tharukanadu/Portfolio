@@ -2,6 +2,8 @@ import React from 'react'
 import './Contact.css'
 import { FaEnvelopeOpen,FaPhoneSquareAlt ,FaFacebook ,FaGithub ,FaInstagram,FaWhatsapp ,FaLinkedin   } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
+import shape1 from '../../assets/shape/shape-1.png'
+import shape2 from '../../assets/shape/shape-2.png'
 
 
 function Contact() {
@@ -73,6 +75,10 @@ function Contact() {
           <button className="button">Send Message <span className="button_icon contact_button-icon"><FiSend/></span></button>
           </form>
     </div>
+    <div className="shape">
+      <img src={shape1} alt=""  className='shape_contact1'/>
+      <img src={shape2} alt="" className='shape_contact2'/>
+      </div>
    </section>
   )
 }

@@ -22,20 +22,10 @@
     line-height: 1.24;
     padding-left: 70px;
 }
-/* .home_title ::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 22%;
-    width: 40px;
-    height: 5px;
-    border-radius: 10px;
-    background-color: var(--first-color);
-} */
+
 .home_description{
     line-height: 2.125;
     margin-block: 16px 32px;
-
 }
 
 .color_block{
@@ -46,5 +36,17 @@
     top: -50%;
     left: -83%;
     transform: rotate(-15deg);
+}
+.shape_one{
+    position: absolute;
+    width: 100px;
+    right: 20px;
+    top: 10%;
+}
+.shape_two{
+    position: absolute;
+    width: 150px;
+    right: 9%;
+    bottom: 30px;
 }
 
