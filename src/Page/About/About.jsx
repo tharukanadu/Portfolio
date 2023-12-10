@@ -6,6 +6,7 @@ import { FaDownload } from "react-icons/fa";
 import cv from '../../assets/cv/kawya gimhan cv.pdf';
 import Skills from '../../Components/Skills'
 
+
 function About() {
   return (
    <main className="section container">

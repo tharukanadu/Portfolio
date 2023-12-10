@@ -56,11 +56,12 @@ font-size: var(--small-font-size);
 }
 /* skills */
 .skills_container {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(8, 1fr);
     row-gap: 48px;
     justify-content: center;
-
+   
 }
+
 .progress_circle{
     width: 120px;
     height: 120px;
@@ -87,4 +88,9 @@ font-size: var(--small-font-size);
     font-weight: var(--weight-400);
     text-align: center;
     margin-top: 24px;
+}
+.service_card{
+    align-items: center;
+    text-align: center;
+    
 }

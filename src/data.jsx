@@ -1,4 +1,4 @@
-import { FaHome,FaUser,FaFolderOpen ,FaEnvelopeOpen,FaBriefcase,FaGraduationCap,FaCode  } from "react-icons/fa";
+import { FaHome,FaUser,FaFolderOpen ,FaEnvelopeOpen,FaBriefcase,FaGraduationCap,FaCode,FaAndroid,FaWordpress } from "react-icons/fa";
 import { FiUser ,FiFileText,FiExternalLink } from "react-icons/fi";
 
 
