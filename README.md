@@ -72,3 +72,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ![portfolio](https://github.com/tharukanadu/Portfolio/assets/91652221/c1808088-b400-41a3-ac2d-882b05793ae8)
+
+/*link*/
+
+
+
+D:\you tube\React\portfolio\public\index.html
+
+
+
+
+
